@@ -11,3 +11,6 @@ void greetYou({required String firstName, required String lastName, String? nick
   print('Hello, $greetingName');
   print('You are ${age * 12} months old');
 }
+
+
+//a program that showcases the use of a late variable, display the combined first and last name (fullname) input, and the age converted into months.

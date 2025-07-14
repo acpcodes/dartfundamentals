@@ -6,3 +6,5 @@ void main(List<String> args) {
 }
 
 greetUser({String? name}) => name ?? 'Stranger';
+
+//this program will either greet the user with their name, or if the user doesnt input a name, will greet them with 'Stranger'

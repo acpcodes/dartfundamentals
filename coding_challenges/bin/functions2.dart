@@ -18,3 +18,5 @@ void checkBMI({required double weight, required double height}) {
     print('You are underweight!');
   }
 }
+
+//program to calculate BMI, and display a guide if theyre underweight, normal or over.
