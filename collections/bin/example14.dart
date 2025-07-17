@@ -61,7 +61,7 @@ void testCombinedListView() {
 void testCombinedIterableView() {
   final Iterable<int> one = [1, 2, 3];
   final two = [10, 20, 30];
-  final Iterable<int> three = [40, 50, 60];
+  final Iterable<int> three = [100, 200, 300];
   var combined = CombinedIterableView([one, two, three]);
   two.add(40);
   print(combined);
@@ -72,7 +72,7 @@ void testCombinedIterableView() {
 }
 
 void testCanonicalizedMap() {
-  final info = {'name': 'John', 'age': 30, 'sex': 'male', 'address': 'New York'};
+  final info = {'name': 'John', 'age': 30, 'sex': 'male', 'foo': 'bar', 'address': 'New York'};
 
   final canonMap = CanonicalizedMap.from(info, (key) {
     return key.length;
